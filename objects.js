@@ -1,7 +1,7 @@
 var playlist = new Object({beyonce: 'halo', adele: 'hello'});
 
  function updatePlaylist(playlist, artistName, songTitle) {
-  playlist[singer] = one punch
+  playlist[singer] = 'one punch'
   return playlist
 }
 
