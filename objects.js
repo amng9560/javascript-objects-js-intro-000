@@ -1,10 +1,10 @@
-var playlist = {Beyonce = "Halo", Adele = "Hello", Keys = "No one"}
+var playlist = {beyonce = "halo", adele = "hello", keys = "no one"}
 
 function updatePlaylist (obj, key, value) {
   return object.assign ({} , playlist, {[Anime], 'One punch theme'})
 }
 
 function removeFromPlaylist (obj, key) {
-  delete playlist.Adele
+  delete playlist.adele
   return playlist
 }
