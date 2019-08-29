@@ -1,11 +1,11 @@
-var playlist = new object {beyonce = "halo", adele = "hello", keys = "no one"}
+var playlist = new Object({beyonce: 'halo', adele: 'hello'});
 
-function updatePlaylist (obj, key, value) {
-  playlist[Anime] = "one punch"
+ function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[singer] = one punch
   return playlist
 }
 
-function removeFromPlaylist (obj, key) {
+ function removeFromPlaylist(playlist, artistName) {
   delete playlist[adele]
   return playlist
 }
